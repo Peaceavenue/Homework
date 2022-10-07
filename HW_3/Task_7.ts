@@ -1,3 +1,4 @@
+export {}
 const result = "true";
 const selected = false;
 const age = 17;

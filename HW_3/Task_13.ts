@@ -1,5 +1,5 @@
+export {}
 const sideWorld: string = "Восток";
-
 switch (sideWorld) {
     case "Юг":
         console.log ("На юг пойдешь - счастье найдешь");

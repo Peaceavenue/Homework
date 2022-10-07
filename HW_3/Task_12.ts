@@ -1,3 +1,4 @@
+export {}
 const age: number = 19; //значение для примера
 
 if (age > 18) {

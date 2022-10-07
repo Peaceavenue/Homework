@@ -1,3 +1,4 @@
+export {}
 let a = "#";
 let b = "";
 

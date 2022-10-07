@@ -1,3 +1,4 @@
+export {}
 const secondInMinute: number = 60;
 const minuteInHour: number = 60;
 const hourInDay: number = 24;

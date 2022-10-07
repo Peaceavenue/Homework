@@ -8,8 +8,12 @@ function getSum (a: number, b: number) {
             sum = sum + b;
         }
         return sum
-    } ;
-
+    } else if (a < b) {
+        for (a; a <= b; a++) {
+            sum = sum + a;
+        }
+        return sum;
+    };
 };
 
 console.log(getSum(1, 0));

@@ -1,3 +1,4 @@
+export {}
 const str = "Boo";
 const num = 123;
 const bool = true;

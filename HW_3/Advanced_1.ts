@@ -1,3 +1,4 @@
+export {}
 let a = 4;
 let b = 3;
 a = a + b;

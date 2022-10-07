@@ -1,3 +1,4 @@
+export {}
 const a: string = "доступ";
 const b: string = "морпех";
 const c: string = 'наледь';
