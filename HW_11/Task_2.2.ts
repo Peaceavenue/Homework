@@ -8,6 +8,6 @@ async function Todos1() {
   const result = todos.map((item: any) => {
     return { id: item.id, title: item.title };
   });
-  return result;
+  console.log(result);
 }
-Todos1().then((result) => console.log(result));
+Todos1();
