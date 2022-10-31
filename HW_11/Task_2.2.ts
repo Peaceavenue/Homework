@@ -10,4 +10,4 @@ async function Todos1() {
   });
   return result;
 }
-Todos1().then((data) => console.log(data));
+Todos1().then((result) => console.log(result));
