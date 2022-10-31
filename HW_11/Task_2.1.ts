@@ -1,9 +1,11 @@
-export {};
-
 import fetch from "node-fetch";
+
+export {};
 
 async function Todos() {
   const resp = await fetch("https://jsonplaceholder.typicode.com/todos");
-  return await resp.json();
+  const result = await resp.json();
+
+  console.log(result);
 }
-Todos().then((data) => console.log(data));
+Todos();
