@@ -1,5 +1,5 @@
 import assert from "assert";
-import { Calculator } from "../tests/Calculator";
+import { Calculator } from "./Calculator";
 
 describe("addition", function () {
     it("positive: checking the sum of addition of numbers", function () {
