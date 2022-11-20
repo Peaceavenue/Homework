@@ -1,7 +1,7 @@
 export class Calculator {
   constructor() {}
 
-  att(a: number, b: number) {
+  add(a: number, b: number) {
     return a + b;
   }
 
@@ -27,9 +27,9 @@ export class Calculator {
 }
 const newCalculator = new Calculator();
 
-const res1 = newCalculator.att(3, 4) === 7 ? "Тест прошел" : "Тест провален";
+const res1 = newCalculator.add(3, 4) === 7 ? "Тест прошел" : "Тест провален";
 console.log(res1);
-const res2 = newCalculator.att(5, 5) === 9 ? "Тест прошел" : "Тест провален";
+const res2 = newCalculator.add(5, 5) === 9 ? "Тест прошел" : "Тест провален";
 console.log(res2);
 const res3 = newCalculator.sub(4, 3) === 2 ? "Тест прошел" : "Тест провален";
 console.log(res3);
