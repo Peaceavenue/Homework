@@ -1,4 +1,4 @@
-/*import { Calculator } from "./calculator";
+import { Calculator } from "./Calculator";
 import { expect } from "chai";
 
 // помню, что не рекомендуется юзать .to.not.eq, решила пробнуть раз поддерживается
@@ -57,4 +57,4 @@ describe("exponentiation", () => {
     it("negative: checking the result of raising numbers to a power", () => {
         expect(Calculator.exp(5, 3), "Your exponentiation result is 125. The system works correctly").to.not.eq(124);
     });
-});*/
+});
