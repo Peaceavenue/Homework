@@ -1,6 +1,6 @@
-.idea/
+../.idea/
 node_modules/
 .DS_Store
 test.ts
-HW_3/
+mocha, chai/HW_3/
 .eslintignore
